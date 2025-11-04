@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF0F1;
+}
+
+.container .main-card {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #00000030;
+}
+
+.container .main-card .information-card {
+  width: 40%;
+  height: 100%;
+  background-color: #58AF9C;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.container .main-card .registration {
+  width: 60%;
+  height: 100%;
+  background-color: #e7f7f5;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .main-card .information-card h1 {
+  font-size: 70;
+}
+
+.container .main-card .information-card p {
+  font-size: 60;
+  text-align: center;
+  width: 50%;
+}
+
+.container .main-card .information-card button {
+    width: 50%;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .main-card .registration h1 {
+  font-size: 42px;
+  color: #58AF9C;
+}
+
+.container .main-card .registration i {
+  font-size: 24px;
+  color: #99A4A7;
+  border: 1px solid #99A4A7;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.container .main-card .registration .icons {
+  display: flex;
+  gap: 15px;
+}
+
+.container .main-card .registration p {
+  font-size: 18px;
+  color: #99A4A7;
+}
+
+.container .main-card .registration .input {
+  width: 40%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .main-card .registration .input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #ECF0F1;
+  border-radius: 10px;
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+.container .main-card .registration .input i {
+  position: absolute;
+  border: none;
+  font-size: 15px;
+  left: 10px;
+  color: #141414;
+
+}
+
+
